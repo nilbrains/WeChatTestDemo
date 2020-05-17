@@ -298,4 +298,10 @@ Page({
     }
     this.setGoodsList(!this.getSaveHide(), this.totalPrice(), this.allSelect(), this.noSelect(), list);
   },
+  toPayOrder:function(){
+    var that = this;
+    wx.navigateTo({
+      url: "/pages/to-pay-order/index?totalPrice"+that.data.goodsList.totalPrice
+    })
+  }
 })

@@ -6,7 +6,9 @@
     "pages/ucenter/index",
     "pages/ucenter/index/index",
     "pages/ucenter/feedback/feedback",
-    "pages/goods-details/index"
+    "pages/goods-details/index",
+    "pages/to-pay-order/index",
+    "pages/select-address/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
