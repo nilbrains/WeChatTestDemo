@@ -83,5 +83,10 @@ Page({
         }
       }
     })
-  }
+  },
+  addAddess:function () {
+    wx.navigateTo({
+      url: '/pages/address-add/index',
+    })
+  },
 })

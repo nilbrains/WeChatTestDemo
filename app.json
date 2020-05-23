@@ -8,7 +8,9 @@
     "pages/ucenter/feedback/feedback",
     "pages/goods-details/index",
     "pages/to-pay-order/index",
-    "pages/select-address/index"
+    "pages/select-address/index",
+    "pages/address-add/index"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
